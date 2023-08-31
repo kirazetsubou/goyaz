@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container {
+    padding: 20px;
+}
+.header {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.cake-container {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+}
+.cake {
+    width: 100%;
+    display: none;
+    position: absolute;
+    bottom: 0;
+}
+.message {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 30px;
+}
+.button {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: #ffcc00;
+}
+.colorful-text {
+    background: linear-gradient(45deg, #ff9400, #ff005d, #ff5f18, #ff3d46);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: px auto;
+  }
+  .header {
+    background: linear-gradient(45deg, #ff9400, #ff005d, #ff5f18, #ff3d46);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 60px auto;
+  }
+  .message {
+    background: linear-gradient(45deg, #ff9400, #ff005d, #ff5f18, #ff3d46);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin: 60px auto;
+  }
+  .header:hover {
+    background-color: linear-gradient(45deg, #8400ff, #eb0bcd, #ff5f18, #7b0ce2);
+    font-size: 36px;
+    font-weight: bold;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .message:hover {
+    background-color: linear-gradient(45deg, #8400ff, #eb0bcd, #ff5f18, #7b0ce2);
+    font-size: 36px;
+    font-weight: bold;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
